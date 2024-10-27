@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "author": "DosDima <dosdima89@gmail.com>",
   "description": "An electron-vue project",
-  "license": null,
   "main": "./dist/electron/main.js",
+  "type": "commonjs",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
     "build:dir": "node .electron-vue/build.js && electron-builder --dir",
